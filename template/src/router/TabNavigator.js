@@ -21,20 +21,12 @@ const TabNavigator = () => {
       screenOptions={{
         headerShown: false
       }}
-      // tabBarOptions={{
-      //   inactiveTintColor: '#A9AFBA',
-      //   labelStyle: {
-      //     fontSize: 12
-      //   },
-      //   keyboardHidesTabBar: true
-      // }}
     >
       <Tab.Screen
         name="First"
         component={First}
         options={({ route }) => ({
           tabBarLabel: 'First'
-          // tabBarVisible: getTabBarVisible({ route })
         })}
       />
     </Tab.Navigator>

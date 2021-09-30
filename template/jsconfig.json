@@ -1,6 +1,16 @@
 {
   "compilerOptions": {
-    "baseUrl": "src"
-  },
-  "include": ["src"]
+    "baseUrl": "./src",
+    "paths": {
+      "@theme": ["./theme"],
+      "@api": ["./api"],
+      "@componentns": ["./components"],
+      "@helpers": ["./helpers"],
+      "@screens": ["./screens"],
+      "@router": ["./router"],
+      "@store": ["./store"],
+      "@translation": ["./translation"],
+      "@utils": ["./utils"]
+    }
+  }
 }

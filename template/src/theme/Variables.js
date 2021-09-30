@@ -1,6 +1,7 @@
-export const globalStyles = () => {
+export const Variables = () => {
   return {
     colors: {
+      white: 'white',
       black: 'black'
     },
     fonts: {
@@ -10,7 +11,9 @@ export const globalStyles = () => {
         bold: 'system font'
       },
       size: {
-        base: 14
+        small: 10,
+        regular: 20,
+        large: 50
       }
     }
   }

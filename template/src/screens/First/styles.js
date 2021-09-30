@@ -1,16 +1,25 @@
 import { StyleSheet } from 'react-native'
-import font from '../../styles/font'
-import { globalStyles } from '../../styles/global'
+import { useTheme } from '../../theme'
 
-const styles = () =>
-  StyleSheet.create({
+const styles = () => {
+  const { Colors, Layout, Font } = useTheme()
+
+  return StyleSheet.create({
     container: {
-      backgroundColor: globalStyles().colors.white
+      ...Layout.fill,
+      ...Layout.column,
+      backgroundColor: Colors.white
     },
     text: {
-      ...font('regular', 40, 'black'),
-      textAlign: 'center'
+      ...Layout.textCenter,
+      ...Font('regular', 'large', Colors.black)
+    },
+    subText: {
+      ...Layout.textCenter,
+      ...Font('regular', 'regular', Colors.black),
+      marginTop: 10
     }
   })
+}
 
 export default styles
