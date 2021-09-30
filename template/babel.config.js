@@ -14,7 +14,8 @@ module.exports = {
           '@router': './src/router',
           '@store': './src/store',
           '@translation': './src/translation',
-          '@utils': './src/utils'
+          '@utils': './src/utils',
+          '@assets': './src/assets'
         }
       }
     ]

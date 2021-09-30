@@ -1,7 +1,7 @@
 const config = {
   axios: {
-    baseURL: '/api',
-    baseImgUrl: '/'
+    baseURL: 'http://template.com/api',
+    baseImgUrl: 'http://template.com'
   },
 
   respBody(response) {

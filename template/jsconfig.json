@@ -10,7 +10,8 @@
       "@router": ["./router"],
       "@store": ["./store"],
       "@translation": ["./translation"],
-      "@utils": ["./utils"]
+      "@utils": ["./utils"],
+      "@assets": ["./assets"]
     }
   }
 }

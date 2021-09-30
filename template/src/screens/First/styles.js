@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native'
 import { useTheme } from '@theme'
+import { range } from 'lodash'
 
 const styles = () => {
   const { Colors, Layout, Font } = useTheme()
@@ -18,6 +19,10 @@ const styles = () => {
       ...Layout.textCenter,
       ...Font('regular', 'regular', Colors.black),
       marginTop: 10
+    },
+    image: {
+      height: 450,
+      width: '100%'
     }
   })
 }
