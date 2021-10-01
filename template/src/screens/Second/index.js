@@ -23,7 +23,7 @@ const Second = () => {
               <TextInputMask {...props} mask="+996 [000] [000] [000]" />
             )}
           />
-          <Button onPress={formik.handleChange} title="Submit" />
+          <Button onPress={formik.handleSubmit} title="Submit" />
         </SafeAreaView>
       )}
     </Formik>
