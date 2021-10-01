@@ -1,10 +1,11 @@
 import React, { useRef } from 'react'
-import { TextInput, SafeAreaView, Button } from 'react-native'
+import { TextInput, SafeAreaView } from 'react-native'
 import styles from './styles'
 import { useTranslation } from 'react-i18next'
 import { Formik } from 'formik'
 import Input from '@components/Input'
 import TextInputMask from 'react-native-text-input-mask'
+import Button from '@components/Button'
 
 const Second = () => {
   return (
@@ -23,7 +24,7 @@ const Second = () => {
               <TextInputMask {...props} mask="+996 [000] [000] [000]" />
             )}
           />
-          <Button onPress={formik.handleSubmit} title="Submit" />
+          <Button handlePress={formik.handleSubmit} text="Текст кнопки" />
         </SafeAreaView>
       )}
     </Formik>
