@@ -11,9 +11,12 @@ export const Variables = () => {
         bold: 'system font'
       },
       size: {
-        small: 10,
-        regular: 20,
-        large: 50
+        small: 12,
+        title: 14,
+        regular: 16,
+        big: 20,
+        biggest: 32,
+        large: 36
       }
     }
   }

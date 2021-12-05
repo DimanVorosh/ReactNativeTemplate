@@ -5,7 +5,7 @@
 # Xcode
 #
 build/
-*.pbxuser
+*.pbxuserx
 !default.pbxuser
 *.mode1v3
 !default.mode1v3
@@ -57,3 +57,4 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+node_modules/
